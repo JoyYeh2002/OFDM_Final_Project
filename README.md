@@ -9,12 +9,14 @@ Return to [Joy's website](https://joyyeh2002.github.io/engineering.html)
 # Introduction
 Wideband single carrier systems require very complicated equalization and channel estimation schemes due to frequency selective fading. Orthogonal frequency division multiplexing (OFDM) is a way to convert a wideband channel into many intersymbol interference free narrowband channels, for which equalization and channel estimation are straightforward.
 
+![](/info/OFDM_comparisons.PNG)
 
-![](/info/UCI_Repository.PNG)
+This is the final project of a graduate-level wireless communications course at EPFL, Switzerland. Assignment instructions can be found [here](OFDM_Project_Instructions.pdf). The main task is to use **orthogonal frequency division multiplexing** to organize input binary data packets, transmit the data blocks with **block type** and **comb type** transmissions, then use cyclic prefixs and **phase correction** to recover the input data.
 
-This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](https://drive.google.com/file/d/1DOqby_K_9TK2QVUr-C2qYg0amZkRu21U/view). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
+![](/info/block_diagram.PNG)
 
-The dataset’s input, **x_train**, has vectors with 510 dimensions. The training outputs, **y_train**, are binary values of 0 (income below $50k) or 1 (income above $50k). There are 48842 instances of labeled data. Because we have ample amounts of data and simple outputs, we use supervised learning to train a model with logistic regression. Simple implementations of **Adagrad** and **mini-batch training** are also made.
+The channels are built from a physical audio system with speakers and a microphone. Therefore, the system is subject to noise and fading effects. With OFDM, we are able to achieve high recovery rates under low SNR (signal to noise ratio). In the MATLAB simulations, we also conducted significant amount of [testing] ([OFDM_Project_Instructions.pdf](https://github.com/JoyYeh2002/OFDM_Final_Project/tree/main/Chu_Miao_Yeh_OFDM_Project_Code/report_images)). to fully evaluate our implementation.
+
 
 # Inputs and Outputs
 The inputs and adjustable parameters are:
