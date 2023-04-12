@@ -17,7 +17,7 @@ This is the final project of a graduate-level wireless communications course at 
 
 The channels are built from a physical audio system with speakers and a microphone. Therefore, the system is subject to noise and fading effects. With OFDM, we are able to achieve high recovery rates under low SNR (signal to noise ratio). In the MATLAB simulations, we also conducted significant amount of [testing](https://github.com/JoyYeh2002/OFDM_Final_Project/tree/main/Chu_Miao_Yeh_OFDM_Project_Code) to fully evaluate our implementation.
 
-Here are some highlights of the project demonstration:
+# Main Result Highlights
 
 ![](/info/demo01.PNG)
 ![](/info/demo02.PNG)
