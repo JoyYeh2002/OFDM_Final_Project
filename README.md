@@ -1,4 +1,4 @@
-# OFDM_Audio_Transmission_Project
+# OFDM Audio Transmission Project
 
 Return to [Joy's website](https://joyyeh2002.github.io/engineering.html)
 
